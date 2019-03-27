@@ -10,6 +10,10 @@ A simple test is provided with :
 python MAA.py
 ```
 
+The aggregator is initially designed to aggregate video features, i.e. input is a 3D tensor : *Batch Size* X *T* X *N*
+
+But it can easily be adapted to process image feature map, you only need to reshape 4D tensors into 3D tensors.
+
 If our project is helpful for your research, please consider citing : 
 ``` 
 @inproceedings{yuan2018marginalized,
