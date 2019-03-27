@@ -1,6 +1,9 @@
 # MAAN
 Code for the paper "Marginalized Average Attentional Network for Weakly-Supervised Learning" (ICLR).
 
+[[PDF]](https://openreview.net/pdf?id=HkljioCcFQ)
+
+Code is tested with Pytorch 1.0 + Python 3.6. 
 
 If our project is helpful for your research, please consider citing : 
 ``` 
@@ -11,3 +14,4 @@ If our project is helpful for your research, please consider citing :
           year={2019}
         }
 ```
+

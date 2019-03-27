@@ -1,11 +1,5 @@
 import torch
-from torch.autograd import Variable
 from torch import nn
-from itertools import product
-import torch.nn.functional as F
-import os
-import pickle
-import numpy as np
 
 
 
@@ -62,10 +56,10 @@ class MAA_layer(nn.Module):
 		MAA_feature = torch.sum(MAA_feature, dim=0)
 		return MAA_feature
 
-
-#f = MAA_layer()
-#p = Variable(torch.randn(1, 10, 1)).cuda()
-#x = Variable(torch.randn(1, 10, 64)).cuda()
-#print f(p,x)
+if __name__ == '__main__' : 
+	f = MAA_layer()
+	p = torch.randn(1, 10, 1).cuda()
+	x = torch.randn(1, 10, 64).cuda()
+	print (f(p,x))
 
 		
