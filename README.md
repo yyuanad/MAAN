@@ -5,7 +5,7 @@ Pytorch implementation of paper "Marginalized Average Attentional Network for We
 
 Code is tested with **Pytorch 1.0** + **Python 3.6**. 
 
-A simple test is provided with : 
+A simple test for the marginalized average aggregation (MAA) layer is provided with: 
 ```
 python MAA.py
 ```
