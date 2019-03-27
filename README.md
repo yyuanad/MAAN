@@ -1,5 +1,5 @@
 # MAAN
-Code for the paper "Marginalized Average Attentional Network for Weakly-Supervised Learning".
+Code for the paper "Marginalized Average Attentional Network for Weakly-Supervised Learning" (ICLR).
 
 
 If our project is helpful for your research, please consider citing : 
