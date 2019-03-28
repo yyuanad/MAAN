@@ -14,6 +14,22 @@ The aggregator is initially designed to aggregate video features, i.e. input is 
 
 But it can easily be adapted to process image feature map, you only need to reshape 4D tensors into 3D tensors.
 
+Unlike classical attentional aggregator, MAA takes the expectation of the average aggregated subsetfeatures over all the possible subsets to achieve the final aggregation. 
+
+<p align="center">
+<img src="https://github.com/yyuanad/MAAN/blob/master/img/model.jpg" width="400px" alt="teaser">
+</p>
+
+The pipeline for video action localization under weakly supervised setting (only video level action label available) is illustrated below : 
+<p align="center">
+<img src="https://github.com/yyuanad/MAAN/blob/master/img/pipeline.jpg" width="400px" alt="teaser">
+</p>
+
+Some visual results : 
+<p align="center">
+<img src="https://github.com/yyuanad/MAAN/blob/master/img/visualRes.jpg" width="400px" alt="teaser">
+</p>
+
 If our project is helpful for your research, please consider citing : 
 ``` 
 @inproceedings{yuan2018marginalized,
